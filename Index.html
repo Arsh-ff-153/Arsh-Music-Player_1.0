@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Arsh Music Player</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ==========================
+            PLAYLIST
+    =========================== -->
+
+    <aside class="playlist">
+
+        <h2>🎵 Playlist</h2>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="🔍 Search Song..."
+            autocomplete="off"
+        >
+
+        <ul id="playlist"></ul>
+
+    </aside>
+
+
+
+    <!-- ==========================
+            MUSIC PLAYER
+    =========================== -->
+
+    <main class="player">
+
+        <!-- Album Cover -->
+
+        <div class="cover-box">
+
+            <img
+                src="images/cover1.jpg"
+                class="cover"
+                alt="Album Cover"
+                loading="lazy"
+            >
+
+        </div>
+
+
+        <!-- Song Info -->
+
+        <h2 id="songName">Song 1</h2>
+
+        <p id="artistName">Artist 1</p>
+
+
+        <!-- Audio -->
+
+        <audio id="audio"></audio>
+
+
+        <!-- Progress -->
+
+        <input
+            type="range"
+            id="progress"
+            value="0"
+            min="0"
+            max="100"
+        >
+
+
+        <!-- Time -->
+
+        <p id="time">0:00 / 0:00</p>
+
+
+        <!-- Controls -->
+
+        <div class="controls">
+
+            <button id="prev" title="Previous Song">
+                ⏮
+            </button>
+
+            <button id="play" title="Play / Pause">
+                ▶
+            </button>
+
+            <button id="next" title="Next Song">
+                ⏭
+            </button>
+
+        </div>
+
+
+        <!-- Volume -->
+
+        <input
+            type="range"
+            id="volume"
+            min="0"
+            max="1"
+            step="0.01"
+            value="1"
+        >
+
+
+        <!-- Extra Controls -->
+
+        <div class="extra-controls">
+
+            <button id="favorite" title="Favorite">
+                🤍
+            </button>
+
+            <button id="repeat" title="Repeat">
+                🔁
+            </button>
+
+            <button id="shuffle" title="Shuffle">
+                🔀
+            </button>
+
+            <button id="darkMode" title="Dark Mode">
+                🌙
+            </button>
+
+        </div>
+
+        <!-- Future Visualizer -->
+
+         <div class="visualizer">
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
