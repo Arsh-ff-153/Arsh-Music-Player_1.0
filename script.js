@@ -42,70 +42,70 @@ const songs = [
 {
 name:"Song 1",
 artist:"Artist 1",
-file:"songs/song1.mp3",
+file:"song1.mp3",
 cover:"images/cover1.jpg"
 },
 
 {
 name:"Song 2",
 artist:"Artist 2",
-file:"songs/song2.mp3",
+file:"song2.mp3",
 cover:"images/cover2.jpg"
 },
 
 {
 name:"Song 3",
 artist:"Artist 3",
-file:"songs/song3.mp3",
+file:"song3.mp3",
 cover:"images/cover3.jpg"
 },
 
 {
 name:"Song 4",
 artist:"Artist 4",
-file:"songs/song4.mp3",
+file:"song4.mp3",
 cover:"images/cover4.jpg"
 },
 
 {
 name:"Song 5",
 artist:"Artist 5",
-file:"songs/song5.mp3",
+file:"song5.mp3",
 cover:"images/cover5.jpg"
 },
 
 {
 name:"Song 6",
 artist:"Artist 6",
-file:"songs/song6.mp3",
+file:"song6.mp3",
 cover:"images/cover6.jpg"
 },
 
 {
 name:"Song 7",
 artist:"Artist 7",
-file:"songs/song7.mp3",
+file:"song7.mp3",
 cover:"images/cover7.jpg"
 },
 
 {
 name:"Song 8",
 artist:"Artist 8",
-file:"songs/song8.mp3",
+file:"song8.mp3",
 cover:"images/cover8.jpg"
 },
 
 {
 name:"Song 9",
 artist:"Artist 9",
-file:"songs/song9.mp3",
+file:"song9.mp3",
 cover:"images/cover9.jpg"
 },
 
 {
 name:"Song 10",
 artist:"Artist 10",
-file:"songs/song10.mp3",
+file:"song10.mp3",
 cover:"images/cover10.jpg"
 }
 
